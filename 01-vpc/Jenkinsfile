@@ -36,7 +36,7 @@ pipeline {
                 expression {
                     params.action == 'apply'  
                 }   
-                }
+             }
             input {
                 message "Should we continue?"
                 ok "Yes, we should."
@@ -58,7 +58,7 @@ pipeline {
                 expression {
                     params.action == 'destroy'  
                 }   
-                }
+            }
             input {
                 message "Should we continue?"
                 ok "Yes, we should."
